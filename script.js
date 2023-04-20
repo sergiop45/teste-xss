@@ -1,4 +1,5 @@
-
+document.elementById("searchfield").value="";
+document.elementById("keySearch").value="";
 function apagaBody() {
   var body = document.querySelector('body');
   body.innerHTML = '<h1 style="color: red">Esse site esta sobre meu genjutsu</h1>';
